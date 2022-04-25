@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../images/mount-fuji.jpg";
 
 export default function Main({
+  image,
   title,
   location,
   startDate,
