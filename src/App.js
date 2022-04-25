@@ -7,7 +7,6 @@ export default function App() {
     <div className="App">
       <Nav />
       <Main
-        img="https://source.unsplash.com/WLxQvbMyfas"
         title="Mount Fuji"
         location="Japan"
         startDate="12 Jan, 2021"

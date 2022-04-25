@@ -1,7 +1,7 @@
 import React from "react";
+import image from "../images/mount-fuji.jpg";
 
 export default function Main({
-  img,
   title,
   location,
   startDate,
@@ -10,7 +10,11 @@ export default function Main({
 }) {
   return (
     <div>
-      <img alt="mount fuji" src={img} />
+      <img className="image" alt="mount fuji" src={image} />
+      <img
+        alt="map pin icon"
+        src="https://img.icons8.com/material-outlined/24/000000/map--v1.png"
+      />
       <p>{location}</p>
       <h2>{title}</h2>
       <p>
