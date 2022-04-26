@@ -28,10 +28,26 @@
 .card {
   display: flex;
   padding: 2em;
+  justify-content: center;
+  align-items: center;
 }
 
 .google-link {
   font-size: 0.6rem;
   letter-spacing: 0.1em;
   color: #918e9b;
+}
+
+.location-description {
+  font-size: 0.9rem;
+}
+
+.date-info {
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.country-info {
+  font-weight: 900;
+  letter-spacing: 0.1em;
 }

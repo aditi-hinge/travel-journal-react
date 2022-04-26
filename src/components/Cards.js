@@ -11,7 +11,7 @@ export default function Cards(prop) {
         />
         <div className="location-info">
           <div className="map-info">
-            <p className="country-info">{prop.location}</p>
+            <p className="country-info">{prop.location.toUpperCase()}</p>
             <a className="google-link" href={prop.googleMapsUrl}>
               View on Google Maps
             </a>
