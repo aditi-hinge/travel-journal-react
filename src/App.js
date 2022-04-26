@@ -1,13 +1,20 @@
 import "./styles.css";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
+import Cards from "./components/Cards";
+import data from "./data";
 // import fujiImage from "./images/mount-fuji.jpg";
 
 export default function App() {
+  const cards = data.map((item) => {
+    return <Cards key={item.id} {...item} />;
+  });
+
   return (
     <div className="App">
       <Nav />
-      <Main
+      {cards}
+      {/* <Main
         // image={<img alt="mt" src={fujiImage} />}
         title="Mount Fuji"
         location="Japan"
@@ -21,7 +28,7 @@ export default function App() {
         startDate="2 May, 2022"
         endDate="20 May, 2022"
         description="The Sydney Opera House is a multi-venue performing arts centre in Sydney."
-      />
+      /> */}
     </div>
   );
 }
