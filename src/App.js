@@ -1,7 +1,7 @@
 import "./styles.css";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
-import fujiImage from "./images/mount-fuji.jpg";
+// import fujiImage from "./images/mount-fuji.jpg";
 
 export default function App() {
   return (

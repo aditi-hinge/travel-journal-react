@@ -1,4 +1,4 @@
-import React from "react";
+//first method
 
 export default function Main({
   image,
